@@ -9,6 +9,74 @@ import { StreamCall, StreamTheme } from "@stream-io/video-react-sdk";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function MeetingPage() {
   const { id } = useParams();
   const { isLoaded } = useUser();
@@ -28,7 +96,7 @@ function MeetingPage() {
 
   return (
     <StreamCall call={call}>
-      <StreamTheme>
+      <StreamTheme className="light">
         {!isSetupComplete ? (
           <MeetingSetup onSetupComplete={() => setIsSetupComplete(true)} />
         ) : (

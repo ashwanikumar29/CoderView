@@ -93,7 +93,7 @@ body {
 
   --str-video__button-primary-base: #2563eb;
   --str-video__button-primary-hover: #b8bdc5;
-  --str-video__button-primary-pressed: #0c48ab;
+  --str-video__button-primary-pressed: #d7dbe2;
   --str-video__button-primary-active: #005fff;
 
   --str-video__button-secondary-base: #d0d7df;
@@ -146,8 +146,8 @@ body {
   --str-video__background-color1: #cdd4e0;
   --str-video__background-color2: #ffffff;
   --str-video__background-color3: #f4f4f5;
-  --str-video__background-color4: #fdfdfd;
-  --str-video__background-color5: #1c4679;
+  --str-video__background-color4: #6772b3;
+  --str-video__background-color5: #b3c2d4;
   --str-video__background-color6: #b4b7bb;
   --str-video__background-color7: #ffffff;
   --str-video__overlay-color: rgba(255, 255, 255, 0.75);

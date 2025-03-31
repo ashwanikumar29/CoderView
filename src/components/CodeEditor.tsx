@@ -167,7 +167,7 @@ function CodeEditor() {
             height={"100%"}
             defaultLanguage={language}
             language={language}
-            theme="vs-light+"
+            theme="vs-dark"
             value={code}
             onChange={(value) => setCode(value || "")}
             options={{
